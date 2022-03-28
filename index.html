@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <!-- CSS only -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <!-- -------------------------Navbar section ------------------------ -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top menu">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="" width="150" height="50" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item pe-3">
+            <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link text-light" href="#services">Services</a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link text-light" href="#testimonials">Tesimonial</a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link text-light" href="#faq">Faq</a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link text-light" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link text-light" href="#content">Contact</a>
+          </li>
+        </ul>
+        <button type="button" class="btn-rounded rounded-pill ">
+         <a href="mailto:raghudaksh9@gmail.com"> +91 06358454</a>
+          <span>
+            <ion-icon name="call-outline"></ion-icon>
+          </span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- -------------------------start the  intro section ------------------------ -->
+  <section id="home" class="intro-sec">
+    <div class="container">
+      <div class="row align-items-center text-light">
+        <div class="col-md-6 intros ">
+          <h1 class="display-2">
+            <span class="display-2--intro mb-3">Hey! I'am Web Developer</span>
+            <span class="display-2--description lh-base mt-3 mb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe perferendis minima eaque id enim expedita
+              numquam aliquam doloribus esse autem.
+            </span>
+          </h1>
+          <button type="button" class="btn-rounded rounded-pill mt-3">
+            Get in Touch
+            <span>
+              <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+            </span>
+          </button>
+        </div>
+        <div class="col-md-6 intros text-end">
+          <div class="video-box">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/arts/intro-section-illustration.png"
+              alt="" class="img-fluid">
+            <a href="" class="position-absolute top-50 start-50 transform-middle">
+              <span>
+                <ion-icon name="play-circle"></ion-icon>
+              </span>
+              <span class="border-animation border-animation--border-1"></span>
+              <span class="border-animation border-animation--border-2"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,96L30,85.3C60,75,120,53,180,53.3C240,53,300,75,360,112C420,149,480,203,540,202.7C600,203,660,149,720,117.3C780,85,840,75,900,96C960,117,1020,171,1080,176C1140,181,1200,139,1260,112C1320,85,1380,75,1410,69.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- -------------------------start the  company section ------------------------ -->
+  <section id="companies" class="companies">
+    <div class="container">
+      <div class="row text-center ">
+        <h4 class="fw-bold lead mb-3 ">Trusted by comapnies like</h4>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-4 col-lg-2">
+          <div class="companies-logo--box ">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/campanies/campany-2.png"
+              class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies-logo--box ">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/campanies/campany-1.png"
+              class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies-logo--box ">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/campanies/campany-3.png"
+              class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies-logo--box ">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/campanies/campany-4.png"
+              class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies-logo--box ">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/campanies/campany-5.png"
+              class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies-logo--box ">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/campanies/campany-6.png"
+              class="img-fluid" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------start the  services section ------------------------ -->
+
+  <section id="services" class="services">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">Our Services</h1>
+        <div class="heading-line mb-1"></div>
+      </div>
+    </div>
+    <div class="row pt-2 pb-2 mt-5 mb-0">
+      <div class="col-md-6 border-right">
+        <div class="bg-white p-3">
+          <h2 class="fw-bold text-capitalize text-center">
+            Our services range from initial design to depolyment anywhere anytime
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-white p-4 text-start">
+          <p class="fw-light">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus inventore non eius cumque ipsa fugiat
+            temporibus aspernatur delectus quaerat maiores?
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- -------------------------start the section for services------------------------ -->
+  <div class="container">
+    <!-- -------------------------start the marketing content----------------------- -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services-content">
+          <ion-icon class="d-block" name="paper-plane-sharp"></ion-icon>
+          <h3 class="display-3--title mt-1">
+            marketing
+          </h3>
+          <p class="lh-lg">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus obcaecati enim beatae. Praesentium
+            asperiores libero, soluta quasi ut, esse exercitationem necessitatibus sunt consequuntur sed cumque?
+          </p>
+          <button type="button" class="btn-rounded rounded-pill border-dark">
+            Learn more
+            <span>
+              <ion-icon name="call-outline"></ion-icon>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services-pic">
+          <img
+            src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/services/service-1.png"
+            alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------start the web development content----------------------- -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services-pic">
+          <img
+            src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/services/service-3.png"
+            alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services-content">
+          <ion-icon class="d-block" name="code-slash-sharp"></ion-icon>
+          <h3 class="display-3--title mt-1">
+            Web Development
+          </h3>
+          <p class="lh-lg">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus obcaecati enim beatae. Praesentium
+            asperiores libero, soluta quasi ut, esse exercitationem necessitatibus sunt consequuntur sed cumque?
+          </p>
+          <button type="button" class="btn-rounded rounded-pill border-dark ">
+            Learn more
+            <span>
+              <ion-icon name="call-outline"></ion-icon>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- -------------------------start the cloud hosting----------------------- -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services-content">
+          <ion-icon class="d-block" name="cloud-upload-sharp"></ion-icon>
+          <h3 class="display-3--title mt-1">
+            Cloud Hoisting
+          </h3>
+          <p class="lh-lg">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus obcaecati enim beatae. Praesentium
+            asperiores libero, soluta quasi ut, esse exercitationem necessitatibus sunt consequuntur sed cumque?
+          </p>
+          <button type="button" class="btn-rounded rounded-pill border-dark ">
+            Learn more
+            <span>
+              <ion-icon name="call-outline"></ion-icon>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services-pic">
+          <img
+            src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/services/service-2.png"
+            alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------------start the testimonial section----------------------- -->
+  <section id="testimonials" class="testimonials">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,256L30,229.3C60,203,120,149,180,138.7C240,128,300,160,360,181.3C420,203,480,213,540,202.7C600,192,660,160,720,138.7C780,117,840,107,900,128C960,149,1020,203,1080,208C1140,213,1200,171,1260,144C1320,117,1380,107,1410,101.3L1440,96L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row text-center text-light">
+        <h1 class="display-3 fw-bold ">
+          Testimonials
+        </h1>
+        <hr style="width: 100px; height:3px" class="mx-auto">
+        <p class="lead pt-1">What our clients are saying</p>
+      </div>
+
+      <!-- -------------------------start the carousel section----------------------- -->
+      <div class="row align-items-center">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial--card">
+                <p class="lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis nemo deleniti exercitationem.
+                  Aliquid illum aspernatur aliquam aut ad delectus.
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                </p>
+              </div>
+              <div class="testimonial--pic">
+                <img
+                  src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/testimonials/client-1.jpg"
+                  alt="" class="rounded-circle img-fluid">
+              </div>
+              <div class="testimonial--name">
+                <h3>Patric Muriungi</h3>
+                <p class="fw-light">CEO & founder</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial--card">
+                <p class="lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis nemo deleniti exercitationem.
+                  Aliquid illum aspernatur aliquam aut ad delectus.
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                </p>
+              </div>
+              <div class="testimonial--pic">
+                <img
+                  src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/testimonials/client-2.jpg"
+                  alt="" class="rounded-circle img-fluid">
+              </div>
+              <div class="testimonial--name">
+                <h3>Muriungi Patrick</h3>
+                <p class="fw-light">Finance Manager</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial--card">
+                <p class="lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis nemo deleniti exercitationem.
+                  Aliquid illum aspernatur aliquam aut ad delectus.
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                </p>
+              </div>
+              <div class="testimonial--pic">
+                <img
+                  src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/testimonials/client-3.jpg"
+                  alt="" class="rounded-circle img-fluid">
+              </div>
+              <div class="testimonial--name">
+                <h3>Muriungi Patrick</h3>
+                <p class="fw-light">CEO & founder</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial--card">
+                <p class="lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis nemo deleniti exercitationem.
+                  Aliquid illum aspernatur aliquam aut ad delectus.
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                </p>
+              </div>
+              <div class="testimonial--pic">
+                <img
+                  src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/testimonials/client-4.jpg"
+                  alt="" class="rounded-circle img-fluid">
+              </div>
+              <div class="testimonial--name">
+                <h3>Joy Marete</h3>
+                <p class="fw-light">Global brand manager</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial--card">
+                <p class="lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis nemo deleniti exercitationem.
+                  Aliquid illum aspernatur aliquam aut ad delectus.
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                </p>
+              </div>
+              <div class="testimonial--pic">
+                <img
+                  src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/testimonials/client-5.jpg"
+                  alt="" class="rounded-circle img-fluid">
+              </div>
+              <div class="testimonial--name">
+                <h3>ClaireBelle</h3>
+                <p class="fw-light">CEO & founder</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-outline-light" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+            <button class="btn btn-outline-light" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,256L30,229.3C60,203,120,149,180,138.7C240,128,300,160,360,181.3C420,203,480,213,540,202.7C600,192,660,160,720,138.7C780,117,840,107,900,128C960,149,1020,203,1080,208C1140,213,1200,171,1260,144C1320,117,1380,107,1410,101.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+      </path>
+    </svg>
+
+  </section>
+  <!-- -------------------------start the FAQ section----------------------- -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-uppercase"> faq </h1>
+        <div class="heading-line mb-5"></div>
+        <p class="lead">
+          Frequently asked questions, get knowledge beforw hand
+        </p>
+      </div>
+      <!-- -------------------------start the Accordian section----------------------- -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the first item's accordion body.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this
+                  being filled with some actual content.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the space to make it look, at least at first
+                  glance, a bit more representative of how this would look in a real-world application.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Accordion Item #4
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the space to make it look, at least at first
+                  glance, a bit more representative of how this would look in a real-world application.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------start the Portfolioi section----------------------- -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="row text-center mt-3 mb-3
+      ">
+        <h1 class="display-3 fw-bold text-capitalize">
+          Latest Work
+        </h1>
+        <div class="heading-line"></div>
+        <p class="lead mt-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veritatis dolorum ea cumque id totam.
+        </p>
+        <div class="row textc-center">
+          <div class="com-md-5">
+            <div class="btn btn-outline-color" type="button">All</div>
+            <div class="btn btn-outline-color" type="button">Websites</div>
+            <div class="btn btn-outline-color" type="button">design</div>
+            <div class="btn btn-outline-color" type="button">mockup</div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------start the Portfolio content section----------------------- -->
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/portfolio/portfolio-1.jpg"
+              alt="" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>projectc name goes here 1</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/portfolio/portfolio-2.jpg"
+              alt="" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>projectc name goes here 2</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/portfolio/portfolio-3.jpg"
+              alt="" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>projectc name goes here 3</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/portfolio/portfolio-4.jpg"
+              alt="" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>projectc name goes here 4</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/portfolio/portfolio-5.jpg"
+              alt="" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>projectc name goes here 5</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/portfolio/portfolio-6.jpg"
+              alt="" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>projectc name goes here 6</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/portfolio/portfolio-7.jpg"
+              alt="" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>projectc name goes here 7</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/portfolio/portfolio-8.jpg"
+              alt="" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>projectc name goes here 8</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img
+              src="https://raw.githubusercontent.com/MuriungiPatrick/Bootstrap-5-portfolio-template/main/images/portfolio/portfolio-9.jpg"
+              alt="" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>projectc name goes here 9</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------start the get started section----------------------- -->
+  <section class="get-started" id="content">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
+        <div class="heading-line"></div>
+        <p class="lh-lg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quisquam vitae facilis molestiae corporis
+          neque?
+        </p>
+      </div>
+      <div class="row text-white">
+        <div class="col-12 col-lg-6 gradient shadow p-3">
+          <div class="cta-info w-100">
+            <h4 class="display-4 fw-bold">100% satisfaction Guarnteed</h4>
+            <p class="lh-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est iure sapiente, culpa sed vero excepturi?
+            </p>
+            <h3 class="display-3--brief">What will be the next step?</h3>
+            <ul class="cta-info--list">
+              <li>We'll prepare the proposal</li>
+              <li>we'll descuss it together</li>
+              <li>lets's start the discussions</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 bg-white shadow p-3">
+          <div class="form w-100 pb-2">
+            <h4 class="display-3--title mb-5">start your projects</h4>
+            <form action="3" class="row">
+              <div class=" col-lg-6 mb-3">
+                <input type="text" placeholder="first name" id="inputFirstName"
+                  class="shadow form-control-lg form-control">
+
+              </div>
+              <div class=" col-lg-6 mb-3">
+                <input type="text" placeholder="Last name" id="inputLasttName"
+                  class="shadow form-control-lg form-control">
+
+              </div>
+              <div class="col-lg-12 mb-3">
+                <input type="email" placeholder="Email" id="inputEmail" class="shadow form-control-lg form-control">
+
+              </div>
+              <div class="mb-3">
+                <textarea placeholder="message" name="message" id="" cols="30" rows="10"
+                  class="col-lg-12 form-control"></textarea>
+              </div>
+              <div class="text-center d-grid mt-1">
+                <button type="button" class="btn btn-outline-color-form rounded-pill pt-3 pb-3 ">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -------------------------start footer section----------------------- -->
+  <footer class="footer mt-5">
+    <div class="container">
+      <div class="row text-center">
+
+        <!-- -------------------------content for mobile mobile----------------------- -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box--icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call"  viewBox="0 0 24 24" stroke-width="1.5"  fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              <path d="M15 7a2 2 0 0 1 2 2" />
+              <path d="M15 3a6 6 0 0 1 6 6" />
+            </svg>
+
+          </div>
+          <div class="contact-box--info">
+            <a href="" class="contact-box--info--title">+91 952158455</a>
+            <p class="contact-box--info--subtitle">Mon-Wed 9am-6pm</p>
+          </div>
+        </div>
+
+        <!-- ------------------------content for email----------------------- -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box--icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened"  viewBox="0 0 24 24" stroke-width="1.5"  fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <polyline points="3 9 12 15 21 9 12 3 3 9" />
+              <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+              <line x1="3" y1="19" x2="9" y2="13" />
+              <line x1="15" y1="13" x2="21" y2="19" />
+            </svg>
+          </div>
+          <div class="contact-box--info">
+            <a href="" class="contact-box--info--title">raghudaksh9@gmail.com</a>
+            <p class="contact-box--info--subtitle">Online support</p>
+          </div>
+        </div>
+
+        <!-- ------------------------content for location----------------------- -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box--icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" 
+              viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line x1="18" y1="6" x2="18" y2="6.01" />
+              <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+              <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+              <line x1="9" y1="4" x2="9" y2="17" />
+              <line x1="15" y1="15" x2="15" y2="20" />
+            </svg>
+          </div>
+          <div class="contact-box--info">
+            <a href="" class="contact-box--info--title">Mumbai, India</a>
+            <p class="contact-box--info--subtitle">Mum 410026, India</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+       <!-- ------------------------start socila media section---------------------- -->
+       <div class="footer-sm" style="background-color: #212121;">
+        <div class="container ">
+          <div class="row py-4 text-center">
+            <div class="col-lg-5 col-md-6 mb-4 text-light">
+              connect wit us on social media 
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <a href="" class="text-light ms-4 fs-3 social-media"><ion-icon name="logo-linkedin"></ion-icon></a>
+              <a href="" class="text-light ms-4 fs-3 social-media"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="" class="text-light ms-4 fs-3 social-media"><ion-icon name="logo-twitter"></ion-icon></a>
+              <a href="" class="text-light ms-4 fs-3 social-media"><ion-icon name="logo-octocat"></ion-icon></a>
+              <a href="" class="text-light ms-4 fs-3 social-media"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+          </div>
+        </div>
+
+       </div>
+          <!-- ------------------------start content for company info---------------------- -->
+          <div class="container" >
+            <div class="row text-white text-center mt-3 mb-3">
+              <div class="col-12 col-sm-6 col-lg-3">
+                <h5 class="text-capitalize fw-bold">company name</h5>
+                <hr class="bg-white d-inline-block mb-4  " style="width: 60px; height: 2px;">
+                <p class="lh-lg">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus tempore assumenda sit ipsam temporibus earum.
+                </p>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <h5 class="text-capitalize fw-bold">products name</h5>
+                <hr class="bg-white d-inline-block mb-4  " style="width: 60px; height: 2px;">
+                <p class="lh-lg">
+                  Lorem ipsum dolor
+                </p>
+                <p class="lh-lg">
+                  Lorem ipsum dolor
+                </p>
+                <p class="lh-lg">
+                  Lorem ipsum dolor
+                </p>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <h5 class="text-capitalize fw-bold">useful links</h5>
+                <hr class="bg-white d-inline-block mb-4  " style="width: 60px; height: 2px;">
+                <p class="lh-lg">
+                  Lorem ipsum dolor
+                </p>
+                <p class="lh-lg">
+                  Lorem ipsum dolor
+                </p>
+                <p class="lh-lg">
+                  Lorem ipsum dolor
+                </p>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mb-4"><h5 class="text-capitalize fw-bold">contact</h5>
+                <hr class="bg-white d-inline-block mb-4  " style="width: 60px; height: 2px;">
+                <p class="lh-lg">
+                  Lorem ipsum dolor
+                </p>
+                <p class="lh-lg">
+                  Lorem ipsum dolor
+                </p>
+                <p class="lh-lg">
+                  Lorem ipsum dolor
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom pt-3 pb-3" style="background-color: black ; ">
+            <div class="container">
+              <div class="row text-center text-white">
+                <div class="col-12">
+                  <div class="footer-bottom--copyright">
+                    &COPY; 
+                    Copyright 2022 multi-purpose Comapny| created by Raghu Daksh
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
+
+
